@@ -1,0 +1,418 @@
+
+body {
+  min-width: 1200px;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+
+.main-header {
+  margin-bottom: 74px;
+  background: #eeeeee;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1160px;
+  padding: 0 10px;
+
+  /*background: rgba(255, 0, 0, 0.5);*/
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.main-logo {
+  width: 160px;
+  float: left;
+  margin-right: 200px;
+
+  /*min-height: 116px;*/
+  /*background: rgba(0, 255, 0, 0.5);*/
+}
+
+.main-logo img {
+  margin-top: 50px;
+}
+
+.main-navigation {
+  width: 620px;
+  float: left;
+
+
+  /*min-height: 116px;*/
+  /*background: rgba(0, 255, 0, 0.5);*/
+}
+
+.main-navigation ul {
+  font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  margin-right: 46px;
+  margin-top: 77px;
+}
+
+.main-header a {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.user-block {
+  width: 115px;
+  float: right;
+
+  /*min-height: 116px;*/
+  /*background: rgba(0, 255, 0, 0.5);*/
+}
+
+.user-block a {
+  display: inline-block;
+  margin-top: 77px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.user-block a:before {
+  content: "";
+  left: 0;
+  top: 6px;
+
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background: url("../img/cart-icon.png");
+}
+
+.slider {
+  width: 1160px;
+
+  min-height: 430px;
+  background: rgba(0, 255, 0, 0.5);
+}
+
+.content {
+  margin-bottom: 80px;
+}
+
+.features {
+  margin-bottom: 40px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.features-item {
+  width: 300px;
+  margin-right: 100px;
+  float: left;
+  margin-bottom: 80px;
+
+  /*min-height: 348px;*/
+  /*background: rgba(0, 255, 0, 0.5);*/
+}
+
+.features-item:last-of-type {
+  margin-right: 0;
+}
+
+.features-img {
+  margin-bottom: 19px;
+}
+
+.features-title {
+  /*padding: 19px 0;*/
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: inline-block;
+  background: #fb565a;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 15px 40px;
+  border-radius: 2px
+}
+
+.features-btn {
+  margin-top: 34px;
+}
+
+.app {
+  background: #00ca74;
+}
+
+.presentation {
+  background: #efc849;
+}
+
+.about-description {
+    width: 660px;
+    float: left;
+    margin-top: 35px;
+
+    /*min-height: 370px;*/
+    /*background: rgba(0, 255, 0, 0.5);*/
+}
+
+.about-lead {
+  display: inline-block;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  margin-bottom: 33px;
+}
+
+.about-principles {
+  margin-bottom: 39px;
+}
+
+.about-products {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  /*margin-bottom: 24px;*/
+}
+
+/*.about-products-list {
+  list-style: disc url("../img/list.png") inside;
+}*/
+
+.about-products-list li {
+  position: relative;
+  margin-top: 24px;
+
+  background: url("../img/list.png") no-repeat left center;
+  list-style: none;
+  padding-left: 36px;
+  /*list-style-image: url("../img/list.png");*/
+}
+
+/*.about-products-list li::before {
+  content: "";
+
+  position:
+  background: url("../img/list.png") no-repeat left bottom;
+}*/
+
+
+
+.about-stats {
+  width: 360px;
+  float: right;
+
+  /*min-height: 410px;*/
+  /*background: rgba(0, 255, 0, 0.5);*/
+}
+
+.about-logo {
+  margin-bottom: 31px;
+}
+
+.about-created {
+  margin: 0 auto;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 17px;
+  margin-bottom: 31px;
+}
+
+.about-stats-block {
+  float: left;
+  margin-right: 19px;
+  width: 100px;
+}
+
+.about-stats-block:last-of-type {
+  margin-right: 0;
+}
+
+.about-stats-value {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.about-stats-value::after {
+  content: "%";
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: super;
+}
+
+/*.about-stats-desc {
+  color: red;
+  line-height: 10px;
+}*/
+
+.about-works {
+  margin-top: 67px;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+  height: 180px;
+  /*background: rgba(255, 255, 0, 0.5);*/
+}
+
+.about-works a {
+  /*display: */
+  /*position: relative;*/
+}
+
+.about-works a::after {
+  content: "";
+  /*position: absolute;*/
+  width: 2px;
+  height: 52px;
+  background: red;
+  float: left;
+  /*right: : 40px;*/
+  /*top: 62px;*/
+}
+
+.about-works-links {
+  width: 260px;
+  margin-right: 40px;
+  float: left;
+
+  /*min-height: 178px;*/
+  /*background: rgba(0, 255, 0, 0.5);*/
+}
+
+.about-works-links:last-of-type {
+  margin-right: 0;
+}
+
+.address {
+  position: relative;
+}
+
+.write-us {
+  position: absolute;
+  top: 55px;
+  width: 270px;
+  z-index: 999;
+  height: 200px;
+  background: #FFFFFF;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.write-us b {
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.write-us p {
+  line-height: 18px;
+  font-size: 16px;
+  color: #666666;
+  margin-top: 18px;
+}
+
+.address-btn {
+  margin-top: 37px;
+}
+
+.map {
+  height: 415px;
+  background: #dbdad4;
+
+}
+
+.main-footer {
+    margin: 70px 0;
+}
+
+.footer-social {
+  margin-right: 140px;
+  /*width: 260px;*/
+  float: left;
+  /*попробовать с inline-block*/
+
+  /*min-height: 80px;*/
+}
+
+
+.social {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #e1e1e1;
+  margin-right: 12px;
+  float: left;
+  position: relative;
+}
+
+.social::after {
+  content: "";
+  /*opacity: 0.5;*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.social.vk::after {
+  background: url('../img/vk-icon.png') no-repeat center;
+}
+
+.social.fb::after {
+  background: url('../img/fb-icon.png') no-repeat center;
+}
+
+.social.ins::after {
+  background: url('../img/insta-icon.png') no-repeat center;
+}
+
+.footer-friendship {
+  width: 560px;
+  float: left;
+  padding-top: 5px;
+
+  min-height: 80px;
+}
+
+.footer-friendship b {
+  line-height: 36px;
+  font-size: 36px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+.footer-friendship p {
+  line-height: 22px;
+  font-size: 16px;
+  color: #444444;
+}
